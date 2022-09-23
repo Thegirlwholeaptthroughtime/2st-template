@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html lang="en" dir="rtl">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+<title>Brighten Mobile</title>
+<link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="fonts/css/fontawesome-all.min.css">    
+<link rel="manifest" href="_manifest.json" data-pwa-version="set_in_manifest_and_pwa_js">
+<link rel="apple-touch-icon" sizes="180x180" href="app/icons/icon-192x192.png">
+</head>
+    
+<body class="theme-light">
+    
+<div id="preloader"><div class="spinner-border color-highlight" role="status"></div></div>
+    
+<div id="page">
+    
+    <div class="header header-fixed header-logo-app header-transparent">
+        <a href="index.html" class="color-white header-title header-subtitle">Back to Pages</a>
+        <a href="#" data-back-button class="color-white header-icon header-icon-1"><i class="fas fa-angle-right"></i></a>
+        <a href="#" data-menu="menu-main" class="color-white header-icon header-icon-2"><i class="fas fa-bars"></i></a>
+        <a href="#" data-menu="menu-contact" class="color-white header-icon header-icon-3"><i class="fas fa-envelope"></i></a>
+    </div>
+    
+    <div id="menu-main" class="menu menu-box-left" data-menu-load="menu-main.html" data-menu-width="280" data-menu-active="nav-pages"></div>
+    <div id="menu-contact" class="menu menu-box-right" data-menu-load="menu-contact.html" data-menu-width="280"></div>
+    <div id="menu-colors" class="menu menu-box-bottom" data-menu-load="menu-colors.html" data-menu-height="390"></div>
+    
+    <div class="page-content">
+        
+        <div class="card mx-0 bg-17" data-card-height="cover">
+            <div class="card-center bg-theme mx-3 px-3">
+                
+                <h1 class="text-center pt-4 mb-n2 font-27 text-uppercase font-800">Register</h1>
+                <p class="text-center color-highlight font-11">Enter your Credentials</p>
+                
+                    <div class="input-style no-borders has-icon validate-field">
+                        <i class="fa fa-user"></i>
+                        <input type="name" class="form-control validate-name" id="form1a" placeholder="Name">
+                        <label for="form1a" class="color-blue-dark font-10 mt-1">Name</label>
+                        <i class="fa fa-times disabled invalid color-red-dark"></i>
+                        <i class="fa fa-check disabled valid color-green-dark"></i>
+                        <em>(required)</em>
+                    </div>                
+                    <div class="input-style no-borders has-icon validate-field mt-2">
+                        <i class="fa fa-at"></i>
+                        <input type="email" class="form-control validate-name" id="form1aa" placeholder="Email">
+                        <label for="form1aa" class="color-blue-dark font-10 mt-1">Email</label>
+                        <i class="fa fa-times disabled invalid color-red-dark"></i>
+                        <i class="fa fa-check disabled valid color-green-dark"></i>
+                        <em>(required)</em>
+                    </div>                
+                    <div class="input-style no-borders has-icon validate-field mt-2">
+                        <i class="fa fa-lock"></i>
+                        <input type="password" class="form-control validate-text" id="form3a" placeholder="Choose Password">
+                        <label for="form3a" class="color-blue-dark font-10 mt-1">Choose Password</label>
+                        <i class="fa fa-times disabled invalid color-red-dark"></i>
+                        <i class="fa fa-check disabled valid color-green-dark"></i>
+                        <em>(required)</em>
+                    </div>
+                    <div class="input-style no-borders has-icon validate-field mt-2">
+                        <i class="fa fa-lock"></i>
+                        <input type="password" class="form-control validate-text" id="form3b" placeholder="Confirm Password">
+                        <label for="form3b" class="color-blue-dark font-10 mt-1">Confirm Password</label>
+                        <i class="fa fa-times disabled invalid color-red-dark"></i>
+                        <i class="fa fa-check disabled valid color-green-dark"></i>
+                        <em>(required)</em>
+                    </div>
+
+                <a href="#" class="btn btn-full btn-sm bg-green-dark font-700 text-uppercase mb-4 mt-4">SIGN UP</a>
+
+                <div class="row mb-3">
+                    <div class="col-6">
+                        <a href="page-signin-2.html" class="text-start d-block color-theme opacity-50 font-11">Already Registered?</a>
+                    </div>
+                    <div class="col-6">
+                        <a href="page-forgot-2.html" class="text-end d-block color-theme opacity-50 font-11">Forgot Credentials</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- Page content ends here-->
+     
+    
+</div>
+
+<script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+</body>

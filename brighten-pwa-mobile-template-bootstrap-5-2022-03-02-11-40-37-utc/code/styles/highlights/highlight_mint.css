@@ -1,0 +1,42 @@
+/* Generating Color Pack*/
+.color-highlight {
+  color: #37BC9B !important;
+}
+
+.bg-highlight {
+  background-color: #37BC9B !important;
+  color: #FFF !important;
+}
+
+.border-highlight {
+  border-color: #37BC9B !important;
+}
+
+.gradient-highlight {
+  background-image: linear-gradient(to bottom, #48CFAD, #37BC9B) !important;
+}
+
+.form-floating-over > .form-control:focus ~ label {
+  color: #37BC9B;
+}
+
+.form-floating-over > .form-control:not(:placeholder-shown) ~ label {
+  color: #37BC9B;
+}
+
+.form-floating-over > .form-select ~ label {
+  color: #37BC9B;
+}
+
+.color-highlight {
+  color: #37BC9B;
+}
+
+.bg-highlight {
+  background-color: #37BC9B;
+  color: #FFF !important;
+}
+
+.splide__pagination__page.is-active {
+  background-color: #37BC9B !important;
+}

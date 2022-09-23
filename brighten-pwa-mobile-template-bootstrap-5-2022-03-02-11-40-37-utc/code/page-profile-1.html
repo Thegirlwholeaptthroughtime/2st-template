@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+<title>Brighten Mobile</title>
+<link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="fonts/css/fontawesome-all.min.css">    
+<link rel="manifest" href="_manifest.json" data-pwa-version="set_in_manifest_and_pwa_js">
+<link rel="apple-touch-icon" sizes="180x180" href="app/icons/icon-192x192.png">
+</head>
+    
+<body class="theme-light">
+    
+<div id="preloader"><div class="spinner-border color-highlight" role="status"></div></div>
+    
+<div id="page">
+    
+    <div class="header header-fixed header-logo-app">
+        <a href="index.html" class="header-title header-subtitle">Back to Pages</a>
+        <a href="#" data-back-button class="header-icon header-icon-1"><i class="fas fa-angle-left"></i></a>
+        <a href="#" data-menu="menu-main" class="header-icon header-icon-2"><i class="fas fa-bars"></i></a>
+        <a href="#" data-menu="menu-contact" class="header-icon header-icon-3"><i class="fas fa-envelope"></i></a>
+    </div>
+    
+    <div id="menu-main" class="menu menu-box-left" data-menu-load="menu-main.html" data-menu-width="280" data-menu-active="nav-pages"></div>
+    <div id="menu-contact" class="menu menu-box-right" data-menu-load="menu-contact.html" data-menu-width="280"></div>
+    <div id="menu-colors" class="menu menu-box-bottom" data-menu-load="menu-colors.html" data-menu-height="390"></div>
+    
+    <div class="page-content header-clear">
+        
+        <div class="card mx-0 bg-0" data-card-height="650">
+            <div class="card-bottom">
+                <h1 class="font-30 text-center">Karla Black</h1>
+                <p class="text-center color-highlight mt-n3 mb-n1">Professional Photographer!</p>
+            </div>
+            <div class="card-overlay bg-gradient-fade"></div>
+        </div>
+        
+        <div class="divider divider-small bg-highlight mt-4 mb-4"></div>
+        
+        <p class="boxed-text-xl">
+            Karla is the name we gave the lovely model we found on PixaBay, which is beautiful for Profile Pages!<br><br>
+            <a href="#" class="font-12 font-700 color-highlight mt-n3 mb-3"><i class="fa fa-globe pe-2 font-11"></i>https://enableds.com</a>
+        </p>
+        
+        <a href="#" class="btn btn-center-l bg-highlight font-700 text-uppercase btn-m mb-4">Follow Karla</a>
+        
+        <div class="divider divider-margins"></div>
+        
+        <div class="row mb-4 text-center">
+            <div class="col-4">
+                <h1 class="mb-n3">130</h1>
+                <span class="color-highlight font-10">Followers</span>
+            </div>
+            <div class="col-4">
+                <h1 class="mb-n3">231</h1>
+                <span class="color-highlight font-10">Following</span>
+            </div>
+            <div class="col-4">
+                <h1 class="mb-n3">145</h1>
+                <span class="color-highlight font-10">Photos</span>
+            </div>
+        </div>
+        
+        <div class="divider divider-margins"></div>
+
+
+        <div class="content">
+            <div class="row text-center row-cols-3 mb-0">
+                <a class="col" data-gallery="gallery-1" href="images/pictures/1t.jpg" title="Vynil and Typerwritter">
+                    <img src="images/empty.png" data-src="images/pictures/1s.jpg" class="preload-img img-fluid rounded-xs" alt="img">
+                    <p class="font-600 pb-1">Writer</p>
+                </a>
+                <a class="col" data-gallery="gallery-1" href="images/pictures/8t.jpg" title="Cream Cookie">
+                    <img src="images/empty.png" data-src="images/pictures/8s.jpg" class="preload-img img-fluid rounded-xs" alt="img">
+                    <p class="font-600 pb-1">Cream</p>
+                </a>
+                <a class="col" data-gallery="gallery-1" href="images/pictures/14t.jpg" title="Cookies and Flowers">
+                    <img src="images/empty.png" data-src="images/pictures/14s.jpg" class="preload-img img-fluid rounded-xs" alt="img">
+                    <p class="font-600 pb-1">Cookie</p>
+                </a>
+                <a class="col" data-gallery="gallery-1" href="images/pictures/11t.jpg" title="Pots and Pans">
+                    <img src="images/empty.png" data-src="images/pictures/11s.jpg" class="preload-img img-fluid rounded-xs" alt="img">
+                    <p class="font-600 pb-1">Pots</p>
+                </a>
+                <a class="col" data-gallery="gallery-1" href="images/pictures/16t.jpg" title="Berries are Packed with Fiber">
+                    <img src="images/empty.png" data-src="images/pictures/16s.jpg" class="preload-img img-fluid rounded-xs" alt="img">
+                    <p class="font-600 pb-1">Berry</p>
+                </a>
+                <a class="col" data-gallery="gallery-1" href="images/pictures/15t.jpg" title="A beautiful Retro Camera">
+                    <img src="images/empty.png" data-src="images/pictures/15s.jpg" class="preload-img img-fluid rounded-xs" alt="img">
+                    <p class="font-600 pb-1">Camera</p>
+                </a>
+            </div>
+        </div>
+        
+       
+        <div class="divider divider-margins"></div>
+        <div data-menu-load="menu-footer.html"></div>
+    
+    </div>
+    <!-- Page content ends here-->
+     
+    
+</div>
+
+<script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+</body>

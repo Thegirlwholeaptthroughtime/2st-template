@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+<title>Brighten Mobile</title>
+<link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="fonts/css/fontawesome-all.min.css">    
+<link rel="manifest" href="_manifest.json" data-pwa-version="set_in_manifest_and_pwa_js">
+<link rel="apple-touch-icon" sizes="180x180" href="app/icons/icon-192x192.png">
+</head>
+    
+<body class="theme-light">
+    
+<div id="preloader"><div class="spinner-border color-highlight" role="status"></div></div>
+    
+<div id="page">
+    
+    <div class="header header-fixed header-logo-center">
+        <a href="index.html" class="header-title">BRIGHTEN</a>
+        <a href="#" data-menu="menu-main" class="header-icon header-icon-1"><i class="fas fa-bars"></i></a>
+        <a href="#" data-menu="menu-contact" class="header-icon header-icon-4"><i class="fas fa-envelope"></i></a>
+    </div>
+    
+    <div id="menu-main" class="menu menu-box-left" data-menu-load="menu-main.html" data-menu-width="280" data-menu-active="nav-media"></div>
+    <div id="menu-contact" class="menu menu-box-right" data-menu-load="menu-contact.html" data-menu-width="280"></div>
+    <div id="menu-colors" class="menu menu-box-bottom" data-menu-load="menu-colors.html" data-menu-height="390"></div>
+    
+    <div class="page-content header-clear">
+
+        <div class="card mx-0 bg-16" data-card-height="300">
+            <div class="card-bottom">
+                <h1 class="font-30 text-center">Media Pages</h1>
+                <p class="text-center color-highlight mt-n3 mb-n1">Awesome Ready Built Page</p>
+            </div>
+            <div class="card-overlay bg-gradient-fade"></div>
+        </div>
+        
+        <div class="divider divider-small bg-highlight mt-4 mb-4"></div>
+
+        <p class="boxed-text-xl">
+            Built to help you highlight your product or image on Mobile Device Screens. Designed to be touch friendly!
+        </p>
+        
+        <a href="index.html" class="btn btn-sm btn-center-m rounded-xs font-800 text-uppercase bg-highlight font-12">Back Home</a>
+
+        <div class="divider divider-margins mb-0 mt-4"></div>
+        
+        <div class="content mt-0 mb-5">
+            
+            <h3 class="mb-0 mt-4">Galleries</h3>
+            <p>Built with an advanced version of Lightbox for optimum mobile performance and beautiful interaction your touch device.</p>
+           
+            <div class="list-group list-custom-small check-visited">
+                <a href="media-gallery-round.html"><i class="fa fa-circle color-red-dark"></i><span>Rounded Thumbs</span><i class="fa fa-angle-right"></i></a>
+                <a href="media-gallery-square.html"><i class="fa fa-square color-green-dark"></i><span>Square Thumbs</span><i class="fa fa-angle-right"></i></a>
+                <a href="media-gallery-wide.html"><i class="fa fa-minus color-blue-dark"></i><span>Wide View</span><i class="fa fa-angle-right"></i></a>
+                <a href="media-gallery-switch.html"><i class="fa fa-sync color-yellow-dark"></i><span>Switch View</span><i class="fa fa-angle-right"></i></a>
+                <a href="media-gallery-filter.html"><i class="fa fa-filter color-magenta-dark"></i><span>Filter Categories</span><i class="fa fa-angle-right"></i></a>
+            </div>
+
+            
+            <h3 class="mb-0 mt-4 pt-4">Portfolios</h3>
+            <p>Built to be tapped and opened for more detail portfolios are great for highlighting your projects.</p>
+           
+            <div class="list-group list-custom-small check-visited">
+                <a href="media-portfolio-instant.html"><i class="fa fa-bolt color-red-dark"></i><span>Instant</span><i class="fa fa-angle-right"></i></a>
+                <a href="media-portfolio-one-v1.html"><i class="fa fa-list color-green-dark"></i><span>One Column - 1</span><i class="fa fa-angle-right"></i></a>
+                <a href="media-portfolio-one-v2.html"><i class="fa fa-bars color-blue-dark"></i><span>One Column - 2</span><i class="fa fa-angle-right"></i></a>
+                <a href="media-portfolio-one-v3.html"><i class="fa fa-list-alt color-yellow-dark"></i><span>One Column - 3</span><i class="fa fa-angle-right"></i></a>
+                <a href="media-portfolio-two-v1.html"><i class="fa fa-th color-orange-dark"></i><span>Two Columns - 1</span><i class="fa fa-angle-right"></i></a>
+                <a href="media-portfolio-two-v2.html"><i class="fa fa-th-large color-teal-dark"></i><span>Two Columns - 2</span><i class="fa fa-angle-right"></i></a>
+                <a href="media-portfolio-selected.html"><i class="fa fa-check color-magenta-dark"></i><span>Portfolio Selected</span><i class="fa fa-angle-right"></i></a>
+            </div>
+
+            
+            
+        </div>
+        
+        <!-- Page Footer  -->
+        <div data-menu-load="menu-footer.html"></div>
+        
+    </div>
+    <!-- Page content ends here-->     
+    
+
+</div>
+
+<script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+</body>
